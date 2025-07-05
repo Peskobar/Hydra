@@ -1,0 +1,24 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: pip install black isort ruff mypy
+      - run: black --check .
+      - run: isort --check-only .
+      - run: ruff .
+      - run: mypy --strict src
+      - run: pytest --maxfail=1 --disable-warnings
+      - run: python src/scripts/package.py
+        env:
+          MANIFEST: MANIFEST.json
+      - uses: actions/upload-artifact@v3
+        with:
+          name: hydra-artefakt
+          path: hydra.zip

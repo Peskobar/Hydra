@@ -1,0 +1,18 @@
+version: '3'
+services:
+  hydra:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://user:pass@db/hydra
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: hydra
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+volumes:
+  dbdata:

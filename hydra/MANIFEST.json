@@ -1,0 +1,218 @@
+[
+  {
+    "path": "hydra/.env.example",
+    "bytes": 79
+  },
+  {
+    "path": "hydra/.github/workflows/ci.yml",
+    "bytes": 665
+  },
+  {
+    "path": "hydra/.github/workflows/e2e.yml",
+    "bytes": 457
+  },
+  {
+    "path": "hydra/.gitignore",
+    "bytes": 91
+  },
+  {
+    "path": "hydra/Dockerfile",
+    "bytes": 208
+  },
+  {
+    "path": "hydra/LICENSE",
+    "bytes": 1150
+  },
+  {
+    "path": "hydra/README.md",
+    "bytes": 1047
+  },
+  {
+    "path": "hydra/docker-compose.yml",
+    "bytes": 353
+  },
+  {
+    "path": "hydra/docs/AGENTS.md",
+    "bytes": 199
+  },
+  {
+    "path": "hydra/docs/QUICKSTART.md",
+    "bytes": 98
+  },
+  {
+    "path": "hydra/docs/STRIDE.md",
+    "bytes": 369
+  },
+  {
+    "path": "hydra/gunicorn_conf.py",
+    "bytes": 242
+  },
+  {
+    "path": "hydra/pyproject.toml",
+    "bytes": 660
+  },
+  {
+    "path": "hydra/requirements.txt",
+    "bytes": 209
+  },
+  {
+    "path": "hydra/src/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/api/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/api/endpoints.py",
+    "bytes": 508
+  },
+  {
+    "path": "hydra/src/api/endpoints_ws.py",
+    "bytes": 342
+  },
+  {
+    "path": "hydra/src/api/main.py",
+    "bytes": 362
+  },
+  {
+    "path": "hydra/src/cli.py",
+    "bytes": 779
+  },
+  {
+    "path": "hydra/src/core/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/core/banrate.py",
+    "bytes": 377
+  },
+  {
+    "path": "hydra/src/core/cache.py",
+    "bytes": 347
+  },
+  {
+    "path": "hydra/src/core/command_bus.py",
+    "bytes": 476
+  },
+  {
+    "path": "hydra/src/core/config.py",
+    "bytes": 333
+  },
+  {
+    "path": "hydra/src/core/history.py",
+    "bytes": 360
+  },
+  {
+    "path": "hydra/src/core/http.py",
+    "bytes": 559
+  },
+  {
+    "path": "hydra/src/core/shutdown.py",
+    "bytes": 467
+  },
+  {
+    "path": "hydra/src/core/tracing.py",
+    "bytes": 696
+  },
+  {
+    "path": "hydra/src/core/user_agents.py",
+    "bytes": 153
+  },
+  {
+    "path": "hydra/src/database/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/database/models.py",
+    "bytes": 332
+  },
+  {
+    "path": "hydra/src/database/session.py",
+    "bytes": 477
+  },
+  {
+    "path": "hydra/src/i18n/__init__.py",
+    "bytes": 213
+  },
+  {
+    "path": "hydra/src/p2p/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/p2p/node.py",
+    "bytes": 669
+  },
+  {
+    "path": "hydra/src/p2p/quic_tunnel.py",
+    "bytes": 218
+  },
+  {
+    "path": "hydra/src/scripts/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/scripts/package.py",
+    "bytes": 736
+  },
+  {
+    "path": "hydra/src/scripts/release_check.py",
+    "bytes": 376
+  },
+  {
+    "path": "hydra/src/tests/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/tests/e2e/test_register_flow.py",
+    "bytes": 476
+  },
+  {
+    "path": "hydra/src/tests/test_api.py",
+    "bytes": 786
+  },
+  {
+    "path": "hydra/src/tests/test_banrate.py",
+    "bytes": 171
+  },
+  {
+    "path": "hydra/src/tests/test_cache.py",
+    "bytes": 186
+  },
+  {
+    "path": "hydra/src/tests/test_config.py",
+    "bytes": 128
+  },
+  {
+    "path": "hydra/src/tests/test_e2e.py",
+    "bytes": 314
+  },
+  {
+    "path": "hydra/src/tests/test_http_client.py",
+    "bytes": 203
+  },
+  {
+    "path": "hydra/src/tests/test_p2p_node.py",
+    "bytes": 493
+  },
+  {
+    "path": "hydra/src/workers/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "hydra/src/workers/account_generator.py",
+    "bytes": 529
+  },
+  {
+    "path": "hydra/src/workers/captcha_solver.py",
+    "bytes": 522
+  },
+  {
+    "path": "hydra/src/workers/email_aggregator.py",
+    "bytes": 510
+  },
+  {
+    "path": "hydra/src/workers/proxy_harvester.py",
+    "bytes": 738
+  }
+]
